@@ -123,9 +123,9 @@ def domain_of(url: str) -> str:
         return ""
 
 
-def is_trusted(url: str) -> bool:
-    d = domain_of(url)
-    # Accept exact match or subdomain match
+def is_trusted(source_url: str) -> bool:
+    """Check the publisher's URL (from the RSS <source url="..."> attribute), not the Google redirect link."""
+    d = domain_of(source_url)
     return any(d == td or d.endswith("." + td) for td in TRUSTED_DOMAINS)
 
 
@@ -151,18 +151,21 @@ def fetch_rss(query: str) -> list[dict]:
             src_el   = item.find("source")
             desc_el  = item.find("description")
 
-            title  = (title_el.text  or "").strip()
-            link   = (link_el.text   or "").strip()
-            pub    = (pub_el.text    or "").strip()
-            source = (src_el.text    or "").strip()
-            desc   = re.sub(r"<[^>]+>", "", desc_el.text or "").strip()
+            title      = (title_el.text  or "").strip()
+            link       = (link_el.text   or "").strip()
+            pub        = (pub_el.text    or "").strip()
+            source     = (src_el.text    or "").strip()
+            # The publisher's actual domain is the 'url' attribute on <source>
+            source_url = (src_el.get("url") or "") if src_el is not None else ""
+            desc       = re.sub(r"<[^>]+>", "", desc_el.text or "").strip()
 
             items.append({
-                "title":   title,
-                "url":     link,
-                "source":  source,
-                "pubDate": pub,
-                "snippet": desc[:300],
+                "title":      title,
+                "url":        link,
+                "source":     source,
+                "source_url": source_url,   # used for trusted-domain filtering
+                "pubDate":    pub,
+                "snippet":    desc[:300],
             })
         return items
     except Exception as e:
@@ -265,8 +268,8 @@ def main():
             raw.extend(fetch_rss(q))
             time.sleep(0.5)   # be polite to Google
 
-        # Filter to trusted sources only
-        trusted = [a for a in raw if is_trusted(a["url"])]
+        # Filter to trusted sources only — use the publisher URL, not the Google redirect link
+        trusted = [a for a in raw if is_trusted(a.get("source_url", ""))]
         print(f"   {len(raw)} found → {len(trusted)} from trusted sources")
 
         articles = dedup(trusted)[:MAX_ARTICLES_PER_TOPIC]
