@@ -194,8 +194,9 @@ SYSTEM_PROMPT = (
     "extract specific, actionable takeaways they can act on in their work. "
     "Each must be concrete — not a restatement of the title.\n\n"
     "- For 'fun_research' (fascinating/quirky psychology studies): write 2–3 short, engaging "
-    "observations — why the finding is surprising, and one practical implication or "
-    "conversation-starter it offers for their work with people and teams.\n\n"
+    "observations — focus on what makes the finding surprising or counterintuitive, the headline "
+    "result in plain language, and why it's interesting to anyone curious about human behaviour. "
+    "Do NOT frame takeaways around professional application or workplace use. Keep it fun and shareable.\n\n"
     "Format: a JSON array of strings, e.g. [\"Point 1.\", \"Point 2.\"]"
 )
 
