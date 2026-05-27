@@ -1,22 +1,39 @@
 {
-  "generated_at": "2026-05-27T09:52:40.827725+00:00",
+  "generated_at": "2026-05-27T11:11:48.077041+00:00",
   "topics": [
     {
-      "id": "ai",
-      "label": "AI Capabilities & Skills",
+      "id": "ai_literacy",
+      "label": "AI Literacy & Capability",
       "emoji": "🤖",
+      "description": "Critical capabilities needed to become AI fluent — frameworks, competencies, and workforce readiness.",
       "articles": []
     },
     {
-      "id": "org_psych",
-      "label": "Organisational Psychology",
+      "id": "org_psych_ai",
+      "label": "AI & Organisational Psychology",
       "emoji": "🏢",
+      "description": "Impact of AI on wellbeing, engagement, job crafting, trust, and other org psych constructs.",
+      "articles": []
+    },
+    {
+      "id": "behaviour_change",
+      "label": "Behavioural Change Frameworks",
+      "emoji": "🔄",
+      "description": "Evidence-based frameworks for driving behaviour change — in the context of AI adoption and workforce transformation.",
+      "articles": []
+    },
+    {
+      "id": "fun_research",
+      "label": "Fascinating Psychology Research",
+      "emoji": "🧩",
+      "description": "Surprising, counterintuitive, and delightful findings from personality and behaviour research — the kind of study you'd share at dinner.",
       "articles": []
     },
     {
       "id": "psych_safety",
       "label": "Psychological Safety",
       "emoji": "🛡️",
+      "description": "Research on psychological safety and its role in team learning, AI experimentation, and innovation.",
       "articles": []
     }
   ]
