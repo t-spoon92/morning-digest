@@ -1,0 +1,57 @@
+name: Morning Digest
+
+on:
+  schedule:
+    # 08:00 UTC daily
+    - cron: "0 8 * * *"
+  workflow_dispatch:   # trigger manually from the GitHub Actions UI
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Install Anthropic SDK (used for AI-powered takeaways)
+      - name: Install dependencies
+        run: pip install anthropic==0.29.0
+
+      - name: Fetch news & generate takeaways
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetch_news.py
+
+      - name: Commit articles.json
+        run: |
+          git config user.name  "Morning Digest Bot"
+          git config user.email "actions@github.com"
+          git add articles.json
+          git diff --staged --quiet || git commit -m "chore: update digest $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
