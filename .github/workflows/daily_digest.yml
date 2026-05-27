@@ -20,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Opt into Node.js 24
+        run: echo "FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true" >> $GITHUB_ENV
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -28,7 +31,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Install Anthropic SDK (used for AI-powered takeaways)
       - name: Install dependencies
         run: pip install anthropic==0.29.0
 
