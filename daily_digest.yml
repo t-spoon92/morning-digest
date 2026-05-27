@@ -2,10 +2,10 @@ name: Morning Digest
 
 on:
   schedule:
-    # 08:00 UTC daily
-    - cron: "0 8 * * *"
+    # 22:00 UTC = 08:00 AEST (Melbourne) / 09:00 AEDT (Melbourne daylight saving)
+    - cron: "0 22 * * *"
   workflow_dispatch:   # trigger manually from the GitHub Actions UI
-
+  
 permissions:
   contents: write
   pages: write
