@@ -187,25 +187,48 @@ def dedup(articles: list[dict]) -> list[dict]:
 # ── Anthropic Summariser ───────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = (
-    "You are a research assistant for an organisational psychologist who specialises "
-    "in helping employees develop AI capabilities. Given an article's title, snippet, "
-    "and topic category, generate 2–3 concise responses tailored to the topic type:\n\n"
-    "- For practical topics (AI literacy, org psych, behaviour change, psychological safety): "
-    "extract specific, actionable takeaways they can act on in their work. "
-    "Each must be concrete — not a restatement of the title.\n\n"
-    "- For 'fun_research' (fascinating/quirky psychology studies): write 2–3 short, engaging "
-    "observations — focus on what makes the finding surprising or counterintuitive, the headline "
-    "result in plain language, and why it's interesting to anyone curious about human behaviour. "
-    "Do NOT frame takeaways around professional application or workplace use. Keep it fun and shareable.\n\n"
-    "Format: a JSON array of strings, e.g. [\"Point 1.\", \"Point 2.\"]"
+    "You are a research assistant for an organisational psychologist based in Melbourne, Australia "
+    "who specialises in helping employees develop AI capabilities.\n\n"
+    "Given an article's title, snippet, and topic category, return a single JSON object with exactly "
+    "these four fields:\n\n"
+    "1. \"article_type\": The type of material. Be specific — e.g. \"Meta-analysis\", "
+    "\"Systematic review\", \"Randomised controlled trial\", \"Longitudinal study\", "
+    "\"Cross-sectional survey\", \"Qualitative study\", \"Mixed-methods study\", "
+    "\"Literature review\", \"Practitioner report\", \"Industry whitepaper\", "
+    "\"Opinion / Commentary\", \"News report\", \"Conference paper\". "
+    "Use the most accurate label you can infer from the title and snippet.\n\n"
+    "2. \"sample\": Geographic scope of the study or report in a few words — e.g. "
+    "\"Global\", \"US only\", \"Australia\", \"UK\", \"Europe\", \"US & UK\", "
+    "\"Multi-country\", \"Not specified\".\n\n"
+    "3. \"generalisability\": One sentence assessing how broadly the findings apply. "
+    "Note limitations due to geography, sample size, sector, or methodology. "
+    "If content is US-specific (e.g. US grants, US policy, US labour law) that would not "
+    "apply in Australia, flag this clearly — e.g. 'US-specific — grant schemes and policy "
+    "references do not apply in Australia.'\n\n"
+    "4. \"takeaways\": A JSON array of 2–3 strings, tailored to topic type:\n"
+    "   - For practical topics (ai_literacy, org_psych_ai, behaviour_change, psych_safety): "
+    "specific, actionable takeaways the user can act on in their work. Each must be concrete — "
+    "not a restatement of the title. If a takeaway involves US-specific resources or schemes, "
+    "flag it.\n"
+    "   - For 'fun_research': short, engaging observations — what makes the finding surprising "
+    "or counterintuitive, the headline result in plain language, and why it's interesting to "
+    "anyone curious about human behaviour. Do NOT frame around professional application or "
+    "workplace use. Keep it fun and shareable.\n\n"
+    "Return ONLY a valid JSON object. No preamble, no explanation, no markdown fences.\n"
+    "Example: {\"article_type\": \"Meta-analysis\", \"sample\": \"Global\", "
+    "\"generalisability\": \"High — large multi-country sample across diverse sectors.\", "
+    "\"takeaways\": [\"Point 1.\", \"Point 2.\"]}"
 )
 
 
-def get_takeaways(title: str, snippet: str, api_key: str, topic_id: str = "") -> list[str]:
-    """Call claude-haiku via the Anthropic Messages API and return takeaway strings."""
+EMPTY_META = {"article_type": "", "sample": "", "generalisability": "", "takeaways": []}
+
+
+def get_takeaways(title: str, snippet: str, api_key: str, topic_id: str = "") -> dict:
+    """Call claude-haiku via the Anthropic Messages API and return a metadata dict."""
     payload = {
         "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 300,
+        "max_tokens": 400,
         "system": SYSTEM_PROMPT,
         "messages": [
             {
@@ -233,16 +256,20 @@ def get_takeaways(title: str, snippet: str, api_key: str, topic_id: str = "") ->
         with urllib.request.urlopen(req, timeout=20) as resp:
             body = json.loads(resp.read())
         text = body["content"][0]["text"].strip()
-        # Extract JSON array from response
-        match = re.search(r"\[.*?\]", text, re.DOTALL)
+        # Extract JSON object from response
+        match = re.search(r"\{.*\}", text, re.DOTALL)
         if match:
-            return json.loads(match.group())
-        # Fallback: split on newlines
-        lines = [l.strip("•–- ").strip() for l in text.splitlines() if l.strip()]
-        return lines[:3]
+            parsed = json.loads(match.group())
+            return {
+                "article_type":    parsed.get("article_type", ""),
+                "sample":          parsed.get("sample", ""),
+                "generalisability": parsed.get("generalisability", ""),
+                "takeaways":       parsed.get("takeaways", []),
+            }
+        return EMPTY_META.copy()
     except Exception as e:
         print(f"    ⚠ Anthropic API error: {e}")
-        return []
+        return EMPTY_META.copy()
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -279,10 +306,17 @@ def main():
         for art in articles:
             if api_key:
                 print(f"   📝 Summarising: {art['title'][:60]}…")
-                art["takeaways"] = get_takeaways(art["title"], art["snippet"], api_key, topic["id"])
+                meta = get_takeaways(art["title"], art["snippet"], api_key, topic["id"])
+                art["article_type"]    = meta["article_type"]
+                art["sample"]          = meta["sample"]
+                art["generalisability"] = meta["generalisability"]
+                art["takeaways"]       = meta["takeaways"]
                 time.sleep(0.3)
             else:
-                art["takeaways"] = []
+                art["article_type"]    = ""
+                art["sample"]          = ""
+                art["generalisability"] = ""
+                art["takeaways"]       = []
 
         result["topics"].append({
             "id":          topic["id"],
