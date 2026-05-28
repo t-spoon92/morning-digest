@@ -75,4 +75,331 @@
     .pill:hover { border-color: #aaa; color: var(--text); }
     .pill.active { color: #fff; border-color: transparent; }
     .pill[data-f="all"].active            { background: var(--text); }
-    .pill[data-f="ai_literacy"].active    { background: var
+    .pill[data-f="ai_literacy"].active    { background: var(--c-ai); }
+    .pill[data-f="org_psych_ai"].active   { background: var(--c-org); }
+    .pill[data-f="behaviour_change"].active { background: var(--c-beh); }
+    .pill[data-f="fun_research"].active   { background: var(--c-fun); }
+    .pill[data-f="psych_safety"].active   { background: var(--c-psy); }
+
+    main { max-width: 860px; margin: 0 auto; padding: 32px 20px 72px; }
+
+    .topic-section { margin-bottom: 44px; }
+    .topic-section[hidden] { display: none; }
+
+    .topic-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 6px; }
+    .topic-icon { font-size: 20px; padding-top: 2px; }
+    .topic-meta { flex: 1; }
+    .topic-title { font-size: 17px; font-weight: 700; letter-spacing: -0.2px; }
+    .topic-desc  { font-size: 13px; color: var(--muted); margin-top: 1px; }
+    .topic-count {
+      font-size: 11.5px; font-weight: 600;
+      padding: 2px 9px; border-radius: 999px;
+      white-space: nowrap; margin-top: 3px;
+    }
+    [data-ts="ai_literacy"]     .topic-count { background: var(--t-ai);  color: var(--c-ai); }
+    [data-ts="org_psych_ai"]    .topic-count { background: var(--t-org); color: var(--c-org); }
+    [data-ts="behaviour_change"].topic-count { background: var(--t-beh); color: var(--c-beh); }
+    [data-ts="fun_research"]    .topic-count { background: var(--t-fun); color: var(--c-fun); }
+    [data-ts="psych_safety"]    .topic-count { background: var(--t-psy); color: var(--c-psy); }
+
+    .divider { height: 1px; background: var(--border); margin: 10px 0 16px; }
+
+    .cards { display: grid; gap: 10px; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transition: box-shadow .15s, transform .15s;
+    }
+    .card:hover {
+      box-shadow: 0 2px 10px rgba(0,0,0,.09), 0 8px 28px rgba(0,0,0,.06);
+      transform: translateY(-1px);
+    }
+
+    [data-ts="ai_literacy"]     .card { border-left: 3px solid var(--c-ai); }
+    [data-ts="org_psych_ai"]    .card { border-left: 3px solid var(--c-org); }
+    [data-ts="behaviour_change"].card { border-left: 3px solid var(--c-beh); }
+    [data-ts="fun_research"]    .card { border-left: 3px solid var(--c-fun); }
+    [data-ts="psych_safety"]    .card { border-left: 3px solid var(--c-psy); }
+
+    .card-main { padding: 16px 18px 14px; }
+
+    .card-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .source-badge {
+      font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .5px;
+      padding: 2px 7px; border-radius: 4px;
+    }
+    [data-ts="ai_literacy"]     .source-badge { background: var(--t-ai);  color: var(--c-ai); }
+    [data-ts="org_psych_ai"]    .source-badge { background: var(--t-org); color: var(--c-org); }
+    [data-ts="behaviour_change"].source-badge { background: var(--t-beh); color: var(--c-beh); }
+    [data-ts="fun_research"]    .source-badge { background: var(--t-fun); color: var(--c-fun); }
+    [data-ts="psych_safety"]    .source-badge { background: var(--t-psy); color: var(--c-psy); }
+
+    .pub-date { font-size: 11.5px; color: var(--muted); margin-left: auto; }
+
+    .article-type-badge {
+      font-size: 10.5px; font-weight: 600;
+      padding: 2px 7px; border-radius: 4px;
+      background: #ececec; color: #555;
+      white-space: nowrap;
+    }
+
+    .card-geo {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      padding: 8px 18px 10px;
+      border-bottom: 1px solid var(--border);
+      background: #fafaf8;
+      font-size: 12px; color: var(--muted); line-height: 1.45;
+    }
+    .card-geo-item { display: flex; gap: 5px; align-items: baseline; }
+    .card-geo-item strong {
+      color: var(--text); font-weight: 600; white-space: nowrap;
+      font-size: 11px; text-transform: uppercase; letter-spacing: .3px;
+    }
+    .card-geo-item span { flex: 1; }
+    .geo-flag-us {
+      display: inline-block;
+      background: #fff3cd; color: #7a4f00;
+      border-radius: 3px; padding: 1px 5px;
+      font-size: 10.5px; font-weight: 700; margin-left: 4px;
+    }
+
+    .card-title { font-size: 14.5px; font-weight: 600; line-height: 1.45; margin-bottom: 6px; }
+    .card-title a { color: inherit; text-decoration: none; }
+    .card-title a:hover { text-decoration: underline; }
+
+    .card-snippet { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+    .takeaways {
+      border-top: 1px solid var(--border);
+      background: var(--subtle);
+      padding: 12px 18px 14px;
+    }
+    .takeaways-label {
+      font-size: 10.5px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .8px;
+      color: var(--muted); margin-bottom: 8px;
+    }
+    .takeaway-item { display: flex; gap: 8px; margin-bottom: 5px; font-size: 13px; line-height: 1.5; }
+    .takeaway-item:last-child { margin-bottom: 0; }
+    .takeaway-bullet {
+      width: 18px; height: 18px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 9px; font-weight: 700; color: #fff;
+      flex-shrink: 0; margin-top: 1px;
+    }
+    [data-ts="ai_literacy"]     .takeaway-bullet { background: var(--c-ai); }
+    [data-ts="org_psych_ai"]    .takeaway-bullet { background: var(--c-org); }
+    [data-ts="behaviour_change"].takeaway-bullet { background: var(--c-beh); }
+    [data-ts="fun_research"]    .takeaway-bullet { background: var(--c-fun); }
+    [data-ts="psych_safety"]    .takeaway-bullet { background: var(--c-psy); }
+
+    .empty, #loading { text-align: center; padding: 64px 24px; color: var(--muted); }
+    .empty-icon { font-size: 36px; margin-bottom: 12px; }
+    .spinner {
+      width: 28px; height: 28px;
+      border: 3px solid var(--border); border-top-color: var(--text);
+      border-radius: 50%; animation: spin .7s linear infinite;
+      margin: 0 auto 14px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    footer {
+      text-align: center; padding: 20px;
+      font-size: 12px; color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>Morning Digest <span>/ Tallie</span></h1>
+    <div id="last-updated">Loading…</div>
+  </div>
+  <div class="filters" id="filters">
+    <button class="pill active" data-f="all">All topics</button>
+    <button class="pill" data-f="ai_literacy">🤖 AI Literacy</button>
+    <button class="pill" data-f="org_psych_ai">🏢 AI & Org Psych</button>
+    <button class="pill" data-f="behaviour_change">🔄 Behaviour Change</button>
+    <button class="pill" data-f="fun_research">🧩 Fascinating Research</button>
+    <button class="pill" data-f="psych_safety">🛡️ Psych Safety</button>
+  </div>
+</header>
+
+<main id="main-content">
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Fetching your digest…</p>
+  </div>
+</main>
+
+<footer>
+  Updated daily at 08:00 AEST / 09:00 AEDT · Sources filtered to verified academic &amp; practitioner outlets · Powered by Claude
+</footer>
+
+<script>
+  function esc(str) {
+    const d = document.createElement("div");
+    d.textContent = str || "";
+    return d.innerHTML;
+  }
+
+  function fmtDate(s) {
+    if (!s) return "";
+    try {
+      return new Date(s).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+    } catch { return s; }
+  }
+
+  function fmtGenerated(s) {
+    if (!s) return "";
+    try {
+      return "Last updated " + new Date(s).toLocaleDateString("en-GB", {
+        weekday: "long", day: "numeric", month: "long",
+        hour: "2-digit", minute: "2-digit", timeZoneName: "short"
+      });
+    } catch { return s; }
+  }
+
+  function isUsSpecific(text) {
+    if (!text) return false;
+    return /\bUS[- ]only\b|US[- ]specific|\bUnited States only\b/i.test(text);
+  }
+
+  function buildCard(article, topicId) {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const typeBadge = article.article_type
+      ? `<span class="article-type-badge">${esc(article.article_type)}</span>`
+      : "";
+
+    let geoHtml = "";
+    if (article.sample || article.generalisability) {
+      const usFlag = isUsSpecific(article.sample) || isUsSpecific(article.generalisability)
+        ? `<span class="geo-flag-us">⚠ US-specific</span>` : "";
+      geoHtml = `<div class="card-geo">
+        ${article.sample ? `<div class="card-geo-item"><strong>Sample</strong><span>${esc(article.sample)}${usFlag}</span></div>` : ""}
+        ${article.generalisability ? `<div class="card-geo-item"><strong>Generalisability</strong><span>${esc(article.generalisability)}</span></div>` : ""}
+      </div>`;
+    }
+
+    const takeawaysLabel = topicId === "fun_research" ? "Why it's interesting" : "Practical takeaways for you";
+
+    const takeawaysHtml = (article.takeaways && article.takeaways.length)
+      ? `<div class="takeaways">
+           <div class="takeaways-label">${takeawaysLabel}</div>
+           ${article.takeaways.map(t => `
+             <div class="takeaway-item">
+               <span class="takeaway-bullet">→</span>
+               <span>${esc(t)}</span>
+             </div>`).join("")}
+         </div>`
+      : (article.snippet
+          ? `<div class="takeaways">
+               <div class="takeaways-label">Summary</div>
+               <div class="takeaway-item">
+                 <span class="takeaway-bullet">→</span>
+                 <span>${esc(article.snippet)}</span>
+               </div>
+             </div>`
+          : "");
+
+    card.innerHTML = `
+      <div class="card-main">
+        <div class="card-meta">
+          <span class="source-badge">${esc(article.source || "Source")}</span>
+          ${typeBadge}
+          <span class="pub-date">${fmtDate(article.pubDate)}</span>
+        </div>
+        <div class="card-title">
+          <a href="${esc(article.url)}" target="_blank" rel="noopener noreferrer">${esc(article.title)}</a>
+        </div>
+      </div>
+      ${geoHtml}
+      ${takeawaysHtml}
+    `;
+    return card;
+  }
+
+  function renderDigest(data) {
+    const main = document.getElementById("main-content");
+    main.innerHTML = "";
+
+    if (!data || !data.topics || !data.topics.length) {
+      main.innerHTML = `<div class="empty"><div class="empty-icon">📭</div><p>No articles yet — run the GitHub Action to populate.</p></div>`;
+      return;
+    }
+
+    document.getElementById("last-updated").textContent = fmtGenerated(data.generated_at);
+
+    for (const topic of data.topics) {
+      const section = document.createElement("section");
+      section.className = "topic-section";
+      section.dataset.ts = topic.id;
+
+      const count = topic.articles ? topic.articles.length : 0;
+      section.innerHTML = `
+        <div class="topic-header">
+          <span class="topic-icon">${topic.emoji}</span>
+          <div class="topic-meta">
+            <div class="topic-title">${esc(topic.label)}</div>
+            <div class="topic-desc">${esc(topic.description || "")}</div>
+          </div>
+          <span class="topic-count">${count} article${count !== 1 ? "s" : ""}</span>
+        </div>
+        <div class="divider"></div>
+        <div class="cards" id="cards-${topic.id}"></div>
+      `;
+
+      const cardsEl = section.querySelector(`#cards-${topic.id}`);
+      if (!count) {
+        cardsEl.innerHTML = `<div class="empty" style="padding:24px"><p>No trusted-source articles found today for this topic.</p></div>`;
+      } else {
+        for (const art of topic.articles) cardsEl.appendChild(buildCard(art, topic.id));
+      }
+
+      main.appendChild(section);
+    }
+  }
+
+  document.getElementById("filters").addEventListener("click", e => {
+    const pill = e.target.closest(".pill");
+    if (!pill) return;
+    document.querySelectorAll(".pill").forEach(p => p.classList.remove("active"));
+    pill.classList.add("active");
+    const f = pill.dataset.f;
+    document.querySelectorAll(".topic-section").forEach(sec => {
+      sec.hidden = !(f === "all" || sec.dataset.ts === f);
+    });
+  });
+
+  async function load() {
+    try {
+      const r = await fetch("articles.json?_=" + Date.now());
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      renderDigest(await r.json());
+    } catch {
+      document.getElementById("main-content").innerHTML = `
+        <div class="empty">
+          <div class="empty-icon">⚠️</div>
+          <p><strong>Could not load articles.json</strong></p>
+          <p style="margin-top:8px;font-size:13px;">
+            Trigger the GitHub Action manually from the Actions tab, or run
+            <code>python fetch_news.py</code> locally.
+          </p>
+        </div>`;
+      document.getElementById("last-updated").textContent = "No data yet";
+    }
+  }
+
+  load();
+</script>
+</body>
+</html>
