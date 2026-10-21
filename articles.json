@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:11:52.192693+00:00",
+  "generated_at": "2026-10-21T13:21:09.585811+00:00",
   "topics": [
     {
       "id": "ai_literacy",
@@ -16,43 +16,10 @@
           "snippet": "A competency framework for digital public health in Europe: an updated scoping review | npj Digital Public Health&nbsp;&nbsp;Nature",
           "article_type": "Scoping review",
           "sample": "Europe",
-          "generalisability": "Moderate — focused on European public health context; framework may need adaptation for Australian healthcare system, different regulatory environment, and workforce structures.",
+          "generalisability": "Moderate — focused on European public health context; competency frameworks may have limited direct application to Australian organisational settings or non-healthcare sectors, though core AI literacy principles may transfer.",
           "takeaways": [
-            "Review identifies key digital competencies required in public health roles; consider which competencies are most critical for your Australian organisation and where gaps exist in current staff capabilities.",
-            "Competency framework approach provides a structured template for designing AI literacy and digital upskilling programs tailored to specific roles rather than one-size-fits-all training.",
-            "European focus means recommendations on governance, certification, and policy integration may not directly transfer to Australian context — verify applicability to local health sector requirements."
-          ]
-        },
-        {
-          "title": "Mind the gap: an evidence gap analysis of digital literacy within public health systems in the European Union using two different frameworks - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdWZkZFN3dUFhYWZoRlpPeFhFTnNKWkhSNFR3YU5uQkhxemd2bGFmMnhLR05lc0dtdGFoM201d0pnS2wydVI2RmRhVzJYUnYyanZtVWZOSVNpUTlZZmZTM1M4SnZMVThSVVNLZ1FvSkh2T2gycGtXazYwRHNLajdWcFp2S3o5QU8yVGFlMkswZ25NZlU2Q0E?oc=5",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "pubDate": "Mon, 20 Jul 2026 08:44:54 GMT",
-          "snippet": "Mind the gap: an evidence gap analysis of digital literacy within public health systems in the European Union using two different frameworks&nbsp;&nbsp;Frontiers",
-          "article_type": "Systematic review",
-          "sample": "European Union",
-          "generalisability": "Moderate — focuses specifically on public health systems in the EU, so findings may not generalise to private healthcare, other sectors, or non-EU contexts. The identified evidence gaps suggest limited research on this specific population.",
-          "takeaways": [
-            "Use this evidence gap analysis to identify which aspects of digital literacy are understudied in your healthcare or public sector context — prioritise building capability in areas where research is sparse rather than duplicating well-documented competencies.",
-            "The two-framework approach reveals that different measurement tools capture different aspects of digital literacy; adopt multiple assessment methods when evaluating staff AI readiness to avoid missing critical capability gaps.",
-            "If working in EU public health systems, this analysis highlights specific digital literacy areas needing urgent workforce development — cross-reference the identified gaps against your organisation's current training offerings."
-          ]
-        },
-        {
-          "title": "Integration of artificial intelligence competencies into a holistic digital literacy framework for middle school education - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tSDB5ajI2RldMUUZqaElVcDlwWlFSdkNqMUNxSFBTMmJpQy1DRUsyMnBzMkIwSGctUjJTNERlcnN5WTRtOEIzQzRYSXlucThpTktUVW1sSTRQZDZFNDc0?oc=5",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "pubDate": "Fri, 17 Apr 2026 07:00:00 GMT",
-          "snippet": "Integration of artificial intelligence competencies into a holistic digital literacy framework for middle school education&nbsp;&nbsp;Nature",
-          "article_type": "Literature review",
-          "sample": "Not specified",
-          "generalisability": "Limited — focuses on middle school education context; applicability to adult workforce AI literacy development requires adaptation. Geographic scope unclear from snippet.",
-          "takeaways": [
-            "AI literacy for non-specialists should be embedded within broader digital literacy frameworks rather than taught in isolation, covering foundational concepts like data literacy, algorithmic reasoning, and ethical AI use.",
-            "Middle school curriculum design can model competency integration approaches (understanding AI capabilities, limitations, biases, and societal impacts) that may inform adult employee AI onboarding programs.",
-            "A holistic framework addressing both technical understanding and critical thinking about AI helps learners build confidence and agency, not just technical skills — relevant for designing psychologically-safe AI capability development in organisations."
+            "Digital health competency frameworks in Europe emphasise domain-specific skills alongside AI literacy — consider how your AI development program balances technical capabilities with sector-contextual knowledge relevant to your employees' roles.",
+            "Scoping reviews of competency frameworks typically identify gaps between current workforce capabilities and future needs; use this as a model to audit what AI literacy gaps exist in your own organisation before designing targeted interventions."
           ]
         },
         {
@@ -64,11 +31,42 @@
           "snippet": "From resistance to readiness: faculty development as the key to AI literacy in public health&nbsp;&nbsp;Frontiers",
           "article_type": "Practitioner report",
           "sample": "Not specified",
-          "generalisability": "Limited — findings likely specific to academic public health settings and faculty development contexts; generalisability to other sectors and practitioner populations unclear without more detail on the study scope.",
+          "generalisability": "Limited — appears to focus on public health education contexts and faculty development. Generalisability to other sectors or non-academic settings unclear without access to full methodology.",
           "takeaways": [
-            "Address staff resistance to AI by investing in structured faculty development programs that build confidence and competence, rather than assuming adoption will follow awareness alone.",
-            "Frame AI literacy as a capability-building issue tied to professional identity and role requirements in public health, not just a technical skill or compliance mandate.",
-            "Design development interventions to move participants from resistance through to readiness by combining foundational knowledge, practical application, and peer learning opportunities."
+            "Faculty resistance to AI adoption is addressable through structured development programs; design these to move educators from scepticism to confidence rather than assuming buy-in.",
+            "AI literacy initiatives in health education should target teaching staff first — their readiness directly influences whether students gain practical AI competency.",
+            "Use faculty development as a lever for institutional change: training educators to teach AI competently can shift organisational culture faster than top-down mandates."
+          ]
+        },
+        {
+          "title": "Integration of artificial intelligence competencies into a holistic digital literacy framework for middle school education - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tSDB5ajI2RldMUUZqaElVcDlwWlFSdkNqMUNxSFBTMmJpQy1DRUsyMnBzMkIwSGctUjJTNERlcnN5WTRtOEIzQzRYSXlucThpTktUVW1sSTRQZDZFNDc0?oc=5",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "pubDate": "Fri, 17 Apr 2026 07:00:00 GMT",
+          "snippet": "Integration of artificial intelligence competencies into a holistic digital literacy framework for middle school education&nbsp;&nbsp;Nature",
+          "article_type": "Literature review",
+          "sample": "Not specified",
+          "generalisability": "Limited — focuses on middle school education context; applicability to adult workplace AI literacy development requires adaptation. Geographic scope unclear from title and snippet.",
+          "takeaways": [
+            "AI literacy for non-specialists should be embedded within broader digital literacy frameworks rather than taught in isolation, helping learners understand AI's role alongside other digital tools and competencies.",
+            "A 'holistic' approach suggests integrating AI concepts across multiple competency domains (e.g., critical thinking, data interpretation, ethical reasoning) — consider similar cross-functional integration when designing AI upskilling for diverse employee groups."
+          ]
+        },
+        {
+          "title": "Strategies for developing AI competencies in higher education - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa0IwU3JDdF9lTVM4QnYycEl1ZGV6T3ZQbmV2RzZFa3ZqYnYzNlp0M01vcWZPWmRNRWtJWFhTUzRvMnpKSkhGdDBvcE1Iakl2U0J1VnJNR19FZENMVTU2dEpVbzItb2lzWGxwTlZQeUVwUmZXX2hYbmtXRFh4WXUzOEJnSG5qMXlRbVZVeHh2Rlg?oc=5",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "pubDate": "Mon, 12 Jan 2026 08:00:00 GMT",
+          "snippet": "Strategies for developing AI competencies in higher education&nbsp;&nbsp;Frontiers",
+          "article_type": "Literature review",
+          "sample": "Not specified",
+          "generalisability": "Limited by lack of detail in snippet — appears to focus on higher education contexts, which may not directly transfer to workplace AI capability development for employees in organisations.",
+          "takeaways": [
+            "Identify which AI competencies are most critical for your organisation's roles, as educational strategies may need adaptation for adult learners with existing domain expertise.",
+            "Consider how higher education's pedagogical approaches to AI literacy (e.g. project-based learning, interdisciplinary teams) could be customised for employee training programs.",
+            "Recognise that developing AI competencies requires more than technical skills — review how the article addresses foundational knowledge, critical thinking, and ethical reasoning alongside practical capability."
           ]
         },
         {
@@ -80,27 +78,26 @@
           "snippet": "Data literacy in the labor market: a systematic review | Humanities and Social Sciences Communications&nbsp;&nbsp;Nature",
           "article_type": "Systematic review",
           "sample": "Global",
-          "generalisability": "Moderate to high — systematic review methodology provides broad coverage, though generalisability depends on the diversity of studies included and whether they represent current labour market contexts across different geographies and sectors.",
+          "generalisability": "High — systematic review methodology synthesises evidence across multiple studies and contexts, though generalisability depends on the quality and geographic diversity of included studies.",
           "takeaways": [
-            "Data literacy is increasingly critical for workforce competitiveness; assess your team's current data interpretation and analytical capabilities to identify priority upskilling areas.",
-            "Different roles require different levels of data literacy — move beyond one-size-fits-all training to create targeted development pathways based on job requirements and existing skill gaps.",
-            "Data literacy gaps often reflect broader organisational culture issues; embedding data-informed decision-making into team norms and processes is as important as formal training delivery."
+            "Data literacy is increasingly critical for workforce competitiveness; identify which data skills (e.g., interpretation, visualisation, statistical reasoning) are most valued in your sector to target upskilling efforts.",
+            "Organisations can design targeted data literacy programmes by understanding which job roles and levels need foundational vs. advanced capabilities, rather than applying one-size-fits-all training.",
+            "Data literacy gaps persist across demographics and education levels in labour markets; audit your organisation's data skills baseline to identify underrepresented groups who may need additional support."
           ]
         },
         {
-          "title": "AI literacy as a meta-skill: a four-domain model for academic management innovation in higher education - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWjFGSUdyQzE1d0x6Sm83Y3doTkxZQVd1ek4zTV9TVjlKRHgxNm1nR2V4NlNybnNsaXNBclcxRFdVVEl2bVg5c2k5QmZCZmd0MEg0NzE1Y0F4d1U5NHlFeUFVcU1mN011WURQaXZLa09semFYMVhodWNwM1lyQW4xUmNqWmw1dnFBbXh4V1p2anc?oc=5",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "pubDate": "Fri, 30 Jan 2026 09:52:59 GMT",
-          "snippet": "AI literacy as a meta-skill: a four-domain model for academic management innovation in higher education&nbsp;&nbsp;Frontiers",
-          "article_type": "Literature review",
+          "title": "Development and validation of a competency-based ladder pathway for AI literacy enhancement among higher vocational students - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VR200X2FncHhHeF9KMUhpZG1xdWlFLXBIYnZiajRLMlJKM2dVX1Fza1pxUjRveFJZSVFONGsxMXl5QmR3eFFaUF9YSEpiSzNsSUpCdG9abGRWZ29wcDFz?oc=5",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "pubDate": "Thu, 14 Aug 2025 07:00:00 GMT",
+          "snippet": "Development and validation of a competency-based ladder pathway for AI literacy enhancement among higher vocational students&nbsp;&nbsp;Nature",
+          "article_type": "Mixed-methods study",
           "sample": "Not specified",
-          "generalisability": "Moderate — focuses on higher education context; applicability to corporate or vocational training settings requires adaptation. Geographic scope unclear from title alone.",
+          "generalisability": "Limited to higher vocational education context; generalisability to workplace AI literacy programs unclear without details on student demographics, institution types, and geographic scope.",
           "takeaways": [
-            "AI literacy functions as a foundational meta-skill that enables learning across other domains; prioritise building this as a prerequisite rather than treating it as a standalone technical skill in your capability development programs.",
-            "The four-domain model provides a structured framework for assessing AI capability gaps in academic management roles; use this taxonomy to diagnose which domains (likely spanning technical knowledge, ethical understanding, change management, and strategic thinking) your staff need to develop.",
-            "Higher education's innovation challenges around AI adoption may offer valuable case studies for organisational leaders; consider how academic institutions' approaches to managing AI integration could inform your own change management strategies."
+            "Consider adopting a competency-ladder framework (progressive skill levels) rather than one-size-fits-all AI training — this scaffolded approach may improve engagement and retention for learners with varying starting points.",
+            "Validate any AI literacy pathway you implement with your target audience before full rollout; the study emphasises the importance of testing competency frameworks to ensure they actually build capability in practice."
           ]
         }
       ]
@@ -120,11 +117,10 @@
           "snippet": "The double-edged mechanism of organizational AI adoption on employee creativity&nbsp;&nbsp;Frontiers",
           "article_type": "Research article",
           "sample": "Not specified",
-          "generalisability": "Generalisability depends on study design and sample composition, which are not detailed in the snippet. Results may be limited by sector focus, organizational context, and geographic scope.",
+          "generalisability": "Generalisability depends on study design and sample composition — unclear from snippet alone whether findings apply broadly across sectors, geographies, and organisational contexts. The 'double-edged' framing suggests context-dependent effects that may vary by implementation approach.",
           "takeaways": [
-            "AI adoption can have contradictory effects on employee creativity — some mechanisms may enhance creative thinking while others constrain it, requiring intentional organizational design to maximize benefits.",
-            "When implementing AI tools, assess whether they are augmenting employee skills and autonomy or creating dependencies and restrictions that stifle creative problem-solving.",
-            "Monitor employee motivation and sense of control during AI rollout; loss of autonomy or perceived threat to creative contributions can offset productivity gains."
+            "AI adoption can both enhance and inhibit employee creativity depending on implementation context — assess your organisation's current approach to determine whether AI is augmenting creative thinking or constraining it through over-automation or rigid workflows.",
+            "The mechanism linking AI adoption to creativity outcomes likely involves employee autonomy, skill development, and role clarity — design AI implementations that preserve creative decision-making space rather than replacing human judgment entirely."
           ]
         },
         {
@@ -136,11 +132,11 @@
           "snippet": "Work autonomy mediates associations between medical AI readiness and well being in a three wave nurse study&nbsp;&nbsp;Nature",
           "article_type": "Longitudinal study",
           "sample": "Not specified",
-          "generalisability": "Findings are limited to nursing contexts and may not generalise to other professions adopting AI. The three-wave design strengthens causal inference, but geographic scope is unclear from the snippet.",
+          "generalisability": "Moderate — findings are specific to nursing contexts and medical AI implementation. Generalisability to other healthcare professions or non-healthcare sectors is unclear without knowing sample composition and geographic scope.",
           "takeaways": [
-            "Organisations implementing medical AI should prioritise preserving or expanding nurses' work autonomy during transition, as autonomy appears to buffer against well-being risks.",
-            "When rolling out AI tools, assess and mitigate losses in decision-making authority or task control—well-being outcomes depend partly on how much autonomy employees retain after AI adoption.",
-            "AI readiness programmes should involve nurses in designing workflows and maintaining meaningful involvement in clinical decisions, rather than positioning AI as a replacement for human judgment."
+            "When introducing medical AI systems, prioritise preserving or enhancing nurse autonomy in decision-making — the study suggests autonomy is the key mechanism linking AI readiness to improved wellbeing, not AI readiness alone.",
+            "Design AI implementations with nurses to maintain their clinical judgement and control over workflows; systems that reduce autonomy risk negating wellbeing benefits even if staff are technically ready for AI.",
+            "Monitor wellbeing outcomes longitudinally during AI rollout, not just adoption rates — three-wave data shows the relationship between readiness and wellbeing unfolds over time and is mediated by how much autonomy staff retain."
           ]
         },
         {
@@ -150,44 +146,13 @@
           "source_url": "https://www.frontiersin.org",
           "pubDate": "Wed, 29 Jul 2026 00:55:44 GMT",
           "snippet": "Competing strain and resource pathways linking AI-enabled work systems to employee wellbeing&nbsp;&nbsp;Frontiers",
-          "article_type": "Research article",
+          "article_type": "Empirical study",
           "sample": "Not specified",
-          "generalisability": "Generalisability depends on the study's sample composition and geography, which are not evident from the title and snippet alone. The theoretical framework linking AI systems to wellbeing through dual strain/resource pathways is likely applicable across sectors, but findings may be limited by the specific organisations or employee groups studied.",
+          "generalisability": "Generalisability depends on sample characteristics not evident from title/snippet. The competing strain-resource framework is conceptually robust but application to Australian workplaces would depend on sector, organisation size, and implementation context of AI systems.",
           "takeaways": [
-            "AI-enabled work systems can affect wellbeing through two competing mechanisms — some aspects create strain (e.g., increased monitoring, skill obsolescence) while others provide resources (e.g., task automation, decision support); managers should deliberately design implementations to maximise resource pathways and mitigate strain.",
-            "When rolling out AI tools, assess both the demands they create and the support they provide; employees may experience improved wellbeing only if resource benefits (reduced workload, better tools) outweigh strain factors (surveillance, job insecurity, cognitive load)."
-          ]
-        },
-        {
-          "title": "Dual pathways of generative AI use: role ambiguity and self-efficacy in employee-AI collaboration - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNczRKbTVlVmtmdHdyUGRGYnpraExnbktGX2E0d05iSjdWeXh2a3IzZ2ZwUnlHZnRrbHJZRE9oRktQNXZjaFJPclVJdmt5UVJ6SVhtd0VPTGdtOGNqT2ttMHM1djNITXk4RTZUZThxeVhnOWc2MVEzSWc1TXM3T1cxU2VNamdHa3RKVFRpQ2oxTVVGdw?oc=5",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "pubDate": "Mon, 20 Jul 2026 20:55:22 GMT",
-          "snippet": "Dual pathways of generative AI use: role ambiguity and self-efficacy in employee-AI collaboration&nbsp;&nbsp;Frontiers",
-          "article_type": "Research article",
-          "sample": "Not specified",
-          "generalisability": "Generalisability depends on sample characteristics not evident from title/snippet. The conceptual framework (role ambiguity and self-efficacy as dual pathways) is likely applicable across sectors, but geographic scope and sample demographics are unclear.",
-          "takeaways": [
-            "Role clarity matters: Organisations should explicitly define how AI tools fit into existing job responsibilities and decision-making processes to reduce ambiguity that may hinder adoption.",
-            "Build confidence first: Invest in targeted self-efficacy training (hands-on practice, peer support, progressive skill-building) before rolling out generative AI, as employee confidence directly influences effective human-AI collaboration.",
-            "Address both pathways: Attend to both structural clarity (reducing role ambiguity) and individual capability (boosting self-efficacy) rather than focusing on one alone, as these operate as complementary mechanisms."
-          ]
-        },
-        {
-          "title": "When AI works, employees worry: the vigilance cost of AI delegation in hybrid work - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOXzRpSVRKcHhLWlBlUXFSelFBV2Qwb2xLV25ERkZqSXhaYXRXZnBBRUdseGVqcTBFQnladldHTFV5NU54TzhyVzM1b1VkS2U3Sk40a2RFQzNIVGlJYl9vMF8tZVo5V2NtWUMycU1RZ3BTb2tHMmVQWVZxcldsZzBQNnN1bXZ3dktwT1pHdXlNZVFoZw?oc=5",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "pubDate": "Thu, 30 Jul 2026 15:16:49 GMT",
-          "snippet": "When AI works, employees worry: the vigilance cost of AI delegation in hybrid work&nbsp;&nbsp;Frontiers",
-          "article_type": "Research article",
-          "sample": "Not specified",
-          "generalisability": "Generalisability depends on study design and sample — without access to full methodology, unclear whether findings apply across sectors, organisation types, and geographic regions. Hybrid work context may limit applicability to fully remote or co-located teams.",
-          "takeaways": [
-            "Successful AI delegation can paradoxically increase employee stress through heightened monitoring demands — managers should explicitly discuss and agree on monitoring expectations when implementing AI tools to reduce unnecessary vigilance burden.",
-            "In hybrid settings, employees may over-monitor AI outputs due to reduced in-person oversight visibility — establish clear escalation protocols and trust frameworks so teams don't default to excessive checking behaviours.",
-            "Design AI handoff processes to clarify human decision points and AI confidence thresholds, reducing the cognitive load of constant vigilance and helping employees trust when AI is genuinely reliable."
+            "AI-enabled work systems create dual pathways affecting wellbeing — some aspects strain employees (e.g. monitoring, job uncertainty) while others provide resources (e.g. automation of routine tasks, decision support). Assess which pathways dominate in your context to target interventions.",
+            "Monitor both negative strain indicators (stress, autonomy loss) and positive resource indicators (skill development, efficiency gains) when implementing AI systems, rather than assuming net positive or negative impact on employee wellbeing.",
+            "Design AI implementations with attention to job redesign and upskilling opportunities to amplify resource pathways, and transparency/consultation practices to mitigate strain pathways."
           ]
         },
         {
@@ -199,11 +164,43 @@
           "snippet": "Workers are facing an age of uncertainty&nbsp;&nbsp;American Psychological Association (APA)",
           "article_type": "Practitioner report",
           "sample": "US only",
-          "generalisability": "Findings are based on US workforce data and APA research; applicability to Australian workers may vary due to differences in employment law, industry structure, and organisational culture. US-specific labour market dynamics and policy references may not transfer directly.",
+          "generalisability": "Findings reflect US workforce dynamics and APA membership perspectives; may not fully generalise to Australian employment contexts, which have different regulatory frameworks, union structures, and labour market conditions.",
           "takeaways": [
-            "Help employees name and process uncertainty related to AI adoption rather than assuming clarity will resolve anxiety — acknowledge the legitimacy of their concerns as a starting point for productive conversations about upskilling.",
-            "Use structured check-ins to monitor psychological safety during AI transitions; uncertainty can erode trust if employees feel their concerns are dismissed or if change is poorly communicated.",
-            "Frame AI capability development as a shared organisational challenge rather than an individual deficiency, reducing shame or resistance that uncertainty can trigger."
+            "Acknowledge uncertainty as a psychological stressor affecting employee wellbeing and engagement — develop targeted mental health support and clear communication strategies to help staff navigate role ambiguity, particularly around AI integration.",
+            "Create structured forums for workers to voice concerns about job security and changing skill requirements; psychological safety depends on being heard, not just reassured.",
+            "Design transition support programs that address both practical reskilling and emotional responses to workplace change — uncertainty about AI's impact requires both capability development and psychological validation."
+          ]
+        },
+        {
+          "title": "Organizational psychological ownership drives employee-AI collaboration via AI crafting under paternalistic leadership - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wTmVyZGdoTlZxZUFSSlAzQ3k2bTdOUkNpZm1qdnhmWEhCOUpCVmhZZHpzN2k3MlhrUkV0c0xBVmgyX042XzlIWGc3ZVVPQkw0WTZ2QWhuZnptOC1Malh3?oc=5",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "pubDate": "Thu, 19 Mar 2026 07:00:00 GMT",
+          "snippet": "Organizational psychological ownership drives employee-AI collaboration via AI crafting under paternalistic leadership&nbsp;&nbsp;Nature",
+          "article_type": "Research article",
+          "sample": "Not specified",
+          "generalisability": "Generalisability limited by focus on paternalistic leadership contexts (common in East Asian organisations) and organisational psychological ownership as a specific mediating mechanism. Findings may not transfer readily to non-paternalistic or Western management contexts.",
+          "takeaways": [
+            "Foster psychological ownership of AI tools among employees by involving them in customisation and adaptation decisions — this sense of ownership directly increases collaboration with AI systems.",
+            "Under paternalistic leadership styles, employee-AI collaboration is strengthened when leaders frame AI as a shared organisational asset rather than a top-down imposition.",
+            "Enable 'AI crafting' practices (deliberate modification and personalisation of AI workflows) as a practical pathway to boost engagement with AI technologies, especially in hierarchical organisational cultures."
+          ]
+        },
+        {
+          "title": "Why AI Boosts Creativity for Some Employees but Not Others - Harvard Business Review",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUllGcVp5VXo3T0tOWDV6QWpiYktDU0RMclJlVUtCTDRneVJQZHJsNnZBSDFGRUJ0N1VlMFY0TExLQlBEOW1rNGtKMmpWX3g1Z2tQZnZfTzVoaVpSTm43NWh3bDNxQkRiMEsxSUZnN0NyNGVzSmJPcjRtb2NKRGNjWVRrRjRnN2R2MEE?oc=5",
+          "source": "Harvard Business Review",
+          "source_url": "https://hbr.org",
+          "pubDate": "Tue, 06 Jan 2026 08:00:00 GMT",
+          "snippet": "Why AI Boosts Creativity for Some Employees but Not Others&nbsp;&nbsp;Harvard Business Review",
+          "article_type": "Opinion / Commentary",
+          "sample": "Not specified",
+          "generalisability": "Limited — based on expert commentary rather than empirical research. Findings likely reflect primarily Western, knowledge-worker perspectives and may not generalise across sectors, skill levels, or cultural contexts.",
+          "takeaways": [
+            "Identify which employees view AI as a creative collaborator versus a threat to autonomy; those with higher psychological safety and growth mindset are more likely to benefit creatively from AI tools.",
+            "Create conditions for creative AI use by clarifying how AI augments rather than replaces human judgment, and provide training that emphasises exploration and experimentation rather than efficiency alone.",
+            "Monitor whether AI adoption widens or narrows creative output within teams — some employees may disengage if they perceive AI as diminishing their unique contribution or control over their work."
           ]
         }
       ]
@@ -223,11 +220,27 @@
           "snippet": "AI adoption to adaptation: How a new change approach can build the human behaviors needed for AI&nbsp;&nbsp;Deloitte",
           "article_type": "Practitioner report",
           "sample": "Not specified",
-          "generalisability": "Moderate — Deloitte's framework is based on consulting experience but lacks detail on geographic scope, sample composition, or empirical validation. Findings likely reflect practices in large multinational organisations but may not transfer readily to smaller or differently-structured entities.",
+          "generalisability": "Moderate — Deloitte report likely draws on consulting experience across multiple sectors and geographies, but specific sample characteristics, study design, and geographic scope are not detailed in the snippet provided.",
           "takeaways": [
-            "Shift framing from 'AI adoption' (technology push) to 'AI adaptation' (human-centred change) — this reframing helps organisations focus on building the specific behaviours and mindsets employees need, not just rolling out tools.",
-            "Design change interventions that explicitly target behavioural shifts (e.g. decision-making habits, collaborative practices, comfort with ambiguity) rather than treating AI implementation as a technology or skills problem alone.",
-            "Identify and address root causes of resistance by understanding which human behaviours the AI system disrupts, then tailor change approaches to build new routines and cultural norms that support effective AI use."
+            "Shift organisational change framing from 'AI adoption' (technical implementation) to 'AI adaptation' (behavioural transformation) — this reframing helps clarify that success depends on building new human capabilities and mindsets, not just deploying tools.",
+            "Design change interventions that explicitly target the behaviours and ways of working needed for AI use, rather than assuming employees will naturally adapt once technology is deployed.",
+            "Align people-focused change strategies with AI implementation timelines early, identifying capability gaps and resistance points before rollout to increase engagement and reduce adoption friction."
+          ]
+        },
+        {
+          "title": "When artificial intelligence becomes a job resource: how psychological capital fuels innovation in algorithm-driven workplaces - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbUwtdFA4SUM4OTNiZi16Y3RubWlSQV9QbUZ3cG0yOEZmdTNmQ2NLd3pPajBJcU11SUt0NjZVdm83M29KOGJRRnpFclotdWxVaEtwNEN0NU1qRl9ZOTZwTjluSjlKWlpqYlNHRGVpeEFrOF9CQ0V3X3FKT0s2OFh2WWg5Nll4WmxGcVJ3N1BSMkJWdw?oc=5",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "pubDate": "Tue, 14 Apr 2026 16:01:06 GMT",
+          "snippet": "When artificial intelligence becomes a job resource: how psychological capital fuels innovation in algorithm-driven workplaces&nbsp;&nbsp;Frontiers",
+          "article_type": "Research article",
+          "sample": "Not specified",
+          "generalisability": "Unclear from snippet — full methodology needed to assess sample size, sectors included, and geographic scope. The theoretical focus on psychological capital and AI as a job resource may apply broadly to knowledge work, but sector and demographic limitations are unknown.",
+          "takeaways": [
+            "Develop psychological capital (hope, efficacy, resilience, optimism) in teams using AI tools — employees with stronger psychological capital are more likely to harness AI as a resource for innovation rather than resist it.",
+            "Frame AI systems as job resources during implementation: emphasize how they augment work and create opportunity, not just automate tasks. This mindset shift can unlock innovation potential in algorithm-driven roles.",
+            "Design onboarding and leadership communication to build confidence and agency around AI use — psychological capital is a malleable construct that can be strengthened through targeted interventions."
           ]
         },
         {
@@ -239,25 +252,10 @@
           "snippet": "How AI Is Reshaping the Future of Work&nbsp;&nbsp;Stanford Graduate School of Business",
           "article_type": "Opinion / Commentary",
           "sample": "Not specified",
-          "generalisability": "Limited — appears to be a Stanford perspective piece without a defined empirical sample. Findings and observations may reflect US business school thinking but lack specified geographic or sectoral boundaries.",
+          "generalisability": "Limited — appears to be a Stanford-based perspective without specific empirical data on sample composition, geography, or sectors studied. Findings may reflect US higher education and tech-sector bias.",
           "takeaways": [
-            "Identify which routine tasks in your team are most vulnerable to AI automation, then proactively redesign those roles to emphasize uniquely human skills (creativity, emotional intelligence, complex problem-solving) rather than waiting for disruption.",
-            "Establish a 'skill translation' programme where employees learn to work alongside AI tools in their current domain before seeking retraining, reducing anxiety and increasing adoption rates during organisational transitions."
-          ]
-        },
-        {
-          "title": "Dual-path mechanism of AI awareness on employee job crafting: insights from the cognitive appraisal of stress and JD-R perspective | Humanities and Social Sciences Communications - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12d3ZWSUlvY3BjeTFIZE5IbE1FTl94WXM5UTBiU084SkxrbTdBbEtjY254ZFFaMlp3VHpOcHBXOXg3VjdfS3VNR3QxR1p3a1hHdGJHRnpHUk16ak1fdnNF?oc=5",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
-          "snippet": "Dual-path mechanism of AI awareness on employee job crafting: insights from the cognitive appraisal of stress and JD-R perspective | Humanities and Social Sciences Communications&nbsp;&nbsp;Nature",
-          "article_type": "Empirical research study",
-          "sample": "Not specified",
-          "generalisability": "Generalisability is unclear from the snippet alone — the geographic scope, sample size, and sector are not indicated. The theoretical framework (JD-R model and cognitive appraisal theory) is well-established, but application to AI awareness and job crafting may be context-dependent.",
-          "takeaways": [
-            "Employee responses to AI awareness operate through two distinct pathways: one mediated by stress appraisal and one by job demands-resources — understanding which pathway dominates in your organisation can guide targeted interventions (e.g., stress management vs. resource provision).",
-            "Job crafting behaviours (how employees reshape their roles) appear to be a key outcome of AI awareness, suggesting that supporting employees to proactively redesign their work tasks and responsibilities may be more effective than passive acceptance of AI changes."
+            "Identify specific workplace tasks most vulnerable to AI automation in your organisation, then design targeted reskilling programs for affected staff before disruption occurs — this proactive stance builds psychological safety around change.",
+            "Frame AI adoption as a tool-augmentation conversation rather than a replacement threat; help employees understand how AI will reshape their role (not eliminate it), which reduces defensive behaviours and increases willingness to learn new capabilities."
           ]
         },
         {
@@ -269,27 +267,27 @@
           "snippet": "From adoption to impact: Three horizons of AI transformation&nbsp;&nbsp;McKinsey & Company",
           "article_type": "Industry whitepaper",
           "sample": "Global",
-          "generalisability": "Moderate — based on McKinsey's consulting experience across multiple sectors and geographies, but findings reflect primarily large enterprises and may not generalise to small-to-medium organisations or non-profit sectors.",
+          "generalisability": "Moderate — based on McKinsey's client work and industry observations, but specific case details and organisational contexts may vary. Applicability across different sectors and company sizes should be tested in your own context.",
           "takeaways": [
-            "Map your AI transformation across three distinct phases (adoption, scaling, impact) — this framework helps you avoid treating AI implementation as a one-off project and instead plan for sustained behaviour and process change over time.",
-            "Design interventions to shift employee mindsets at each horizon: early adopters need experimentation permission, scaling phase requires standardised workflows and peer champions, and impact phase demands accountability for business outcomes — one-size-fits-all change management will fail.",
-            "Measure progress beyond adoption rates (how many use AI) to impact metrics (what business results changed) — this keeps teams focused on behaviour change that matters rather than technology deployment for its own sake."
+            "Map your AI transformation across three phases (adoption, integration, impact) to clarify where your organisation currently sits and what capabilities or mindset shifts are needed to progress to the next horizon.",
+            "Design behaviour change strategies that evolve at each horizon — early adoption requires different change management levers (incentives, training) than later phases, which demand cultural embedding and redefined roles.",
+            "Identify and address the gap between AI adoption and measurable business impact by establishing clear success metrics and accountability before rolling out new AI tools, rather than assuming use automatically drives value."
           ]
         },
         {
-          "title": "How does organizational AI adoption affect employees’ job crafting behaviors? An approach-avoidance perspective - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcy1BM0tGS1ktT3ZwR3dRVlRZbXY0LTNvOUVXX0J0cXpxZGRZSjg3S2tQOEZFZm1MOUE1dXJ3ZnBSWGRZSno5dzlyQnA4dUpucFFOOTg5S2N2OHZmTjdGdTRMaTU5M2dickI0VUNzYUZQRG5fQnlaMnRaQXJHZ3NEVUpWcFRkenNSQXFmNjR1MWNrdw?oc=5",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "pubDate": "Thu, 08 Jan 2026 08:00:00 GMT",
-          "snippet": "How does organizational AI adoption affect employees’ job crafting behaviors? An approach-avoidance perspective&nbsp;&nbsp;Frontiers",
-          "article_type": "Research study",
+          "title": "Dual-path mechanism of AI awareness on employee job crafting: insights from the cognitive appraisal of stress and JD-R perspective | Humanities and Social Sciences Communications - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12d3ZWSUlvY3BjeTFIZE5IbE1FTl94WXM5UTBiU084SkxrbTdBbEtjY254ZFFaMlp3VHpOcHBXOXg3VjdfS3VNR3QxR1p3a1hHdGJHRnpHUk16ak1fdnNF?oc=5",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "snippet": "Dual-path mechanism of AI awareness on employee job crafting: insights from the cognitive appraisal of stress and JD-R perspective | Humanities and Social Sciences Communications&nbsp;&nbsp;Nature",
+          "article_type": "Cross-sectional survey",
           "sample": "Not specified",
-          "generalisability": "Generalisability depends on sample characteristics not evident from title/snippet. The approach-avoidance framework is theoretically sound but application may vary by organisational context, industry, and employee role type.",
+          "generalisability": "Limited — no geographic scope or sample characteristics disclosed in snippet. Appears to be a single-country study, likely China based on journal conventions, but cannot confirm from the title and snippet alone. Findings may not generalise broadly without knowing sector, organisational type, and workforce demographics.",
           "takeaways": [
-            "Frame AI adoption communications around employee agency and choice — employees who perceive AI as controllable are more likely to engage in adaptive job crafting (approach behaviours) rather than withdraw or avoid new responsibilities.",
-            "Identify and support employees showing avoidance responses to AI by clarifying how their existing skills remain valuable and how AI can reduce routine work, not replace expertise — this shifts perception from threat to opportunity.",
-            "Use job crafting as a leading indicator of successful AI adoption; monitor whether employees are proactively redesigning their roles and seeking new responsibilities, or pulling back — this signals whether adoption messaging and change support are landing effectively."
+            "Employees' awareness of AI can trigger two distinct pathways to job crafting: through threat appraisal (stress-driven adaptation) and challenge appraisal (opportunity-driven redesign). Managers should diagnose which appraisal employees are experiencing to tailor support accordingly.",
+            "The Job Demands-Resources (JD-R) framework suggests that framing AI as a resource rather than a threat shifts employees toward proactive job crafting. Use transparent communication about AI's role and provide agency in how employees redesign their work.",
+            "Awareness of AI alone does not guarantee constructive job crafting—the cognitive pathway matters. Training should address both stress management (threat pathway) and opportunity recognition (challenge pathway) to enable adaptive behaviour change."
           ]
         },
         {
@@ -299,12 +297,13 @@
           "source_url": "https://www.frontiersin.org",
           "pubDate": "Mon, 06 Apr 2026 12:18:38 GMT",
           "snippet": "Innovative technologies and workplace collaborations in the energy sector based in the United Arab Emirates&nbsp;&nbsp;Frontiers",
-          "article_type": "Research article",
+          "article_type": "Practitioner report",
           "sample": "United Arab Emirates",
-          "generalisability": "Limited to the UAE energy sector context; findings on technology adoption and collaboration patterns may not generalise to other geographies, industries, or regulatory environments without further validation.",
+          "generalisability": "Limited — findings are specific to the UAE energy sector and may not generalise to other geographic regions or industries with different regulatory, cultural, or technological contexts.",
           "takeaways": [
-            "Identify which innovative technologies are already driving collaboration in your energy sector context, then map gaps where adoption could improve cross-team coordination.",
-            "Examine how workplace collaboration practices in the UAE energy sector differ from your own organisational culture — what local factors (regulation, resources, team structure) enable or hinder technology-driven collaboration?"
+            "Identify which collaborative technologies are already embedded in your energy or similar high-stakes sector — audit existing adoption barriers (skill gaps, resistance to change, siloed workflows) before introducing new tools.",
+            "Design change initiatives that address sector-specific collaboration challenges rather than adopting generic technology rollouts — in energy, safety-critical operations and cross-functional teams may require tailored adoption strategies.",
+            "Engage frontline workers and technical staff early in technology selection to surface practical constraints and build buy-in, rather than top-down implementation."
           ]
         }
       ]
@@ -324,27 +323,11 @@
           "snippet": "Brain scans reveal a shocking difference between psychopaths and other people&nbsp;&nbsp;Science Daily",
           "article_type": "Research report",
           "sample": "Not specified",
-          "generalisability": "Limited — headline sensationalism suggests small or specialized sample; without access to full study details, generalisability cannot be assessed. Brain imaging studies often use small clinical samples that may not represent broader populations.",
+          "generalisability": "Unclear from snippet alone — limited information provided about sample size, geographic scope, or methodological rigor. Neuroimaging findings often have modest effect sizes and may not translate uniformly across populations.",
           "takeaways": [
-            "Brain imaging can detect structural or functional differences in people with psychopathic traits, but 'shocking differences' are usually more modest than headlines suggest — a useful reminder to be sceptical of dramatic science reporting.",
-            "Neuroscientific findings about personality traits are fascinating but don't determine behaviour or destiny; even consistent brain differences coexist with enormous variation in how individuals act and relate to others.",
-            "The gap between what makes a catchy headline and what neuroscience actually shows us reveals how our brains are wired to find sensational stories more memorable than nuanced science."
-          ]
-        },
-        {
-          "title": "How a twin study untangled the surprising roots of authoritarian political beliefs - PsyPost",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVVFEMVBxMFRoUldXeGxPMGMwZXhkRlBUSXk5YnZjaURKQW5qaHRXWkswdnMyQ2F2NEdhRUtaYkhmZVlyTC1NZXNSYzVXbmMyalBUcHNOZXFHdzdWTnlnTVBSXy1FcVUyZFdyOG8xbWN3VXRvemhYa3FCUU1rdkZPc2YwbTZMeHYyaUx4V1M1SzJBWHRjY0tabGlCVjQzamtoUkQxdTlLU3o?oc=5",
-          "source": "PsyPost",
-          "source_url": "https://www.psypost.org",
-          "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "snippet": "How a twin study untangled the surprising roots of authoritarian political beliefs&nbsp;&nbsp;PsyPost",
-          "article_type": "Research report",
-          "sample": "Not specified",
-          "generalisability": "Generalisability depends on the twin study's sample composition and geographic origin, which are not detailed in the snippet provided.",
-          "takeaways": [
-            "Twin studies suggest authoritarian political beliefs have a heritable genetic component, challenging the assumption that such views are purely learned or environmental.",
-            "The finding is counterintuitive because political ideology is often assumed to be shaped entirely by upbringing, social circles, and life experience — discovering genetic influence complicates this neat story.",
-            "This research hints at why political persuasion campaigns often fail: if authoritarian leanings are partly baked in genetically, exposure to opposing views alone may shift attitudes less than we'd expect."
+            "Brain imaging studies consistently find structural or functional differences in individuals with psychopathic traits, particularly in regions associated with emotion processing and impulse control — a finding that's counterintuitive because it suggests observable neural correlates of psychological traits once thought purely behavioural.",
+            "The 'shocking difference' framing is typical of popular neuroscience reporting, but the actual biological basis of psychopathy remains complex and debated — brain differences don't explain why some people with similar neural profiles behave very differently.",
+            "This type of research fascinates because it sits at the intersection of nature versus nurture: if psychopathy has a neural signature, does that change how we think about moral responsibility and criminal justice?"
           ]
         },
         {
@@ -356,27 +339,42 @@
           "snippet": "When personality meets surprise: individual differences in memory for unexpected events&nbsp;&nbsp;Frontiers",
           "article_type": "Research study",
           "sample": "Not specified",
-          "generalisability": "Generalisability depends on sample composition and size, which are not detailed in the snippet provided. The finding about personality and memory for surprises likely applies broadly to human cognition, though effect sizes and moderators may vary across populations.",
+          "generalisability": "Generalisability depends on sample characteristics not detailed in the snippet; appears to be a controlled laboratory study of surprise and memory encoding, which may not fully capture how personality shapes memory for unexpected events in real-world contexts.",
           "takeaways": [
-            "People's personalities shape which surprising moments they remember — some personality types appear to encode unexpected events more strongly into memory than others, revealing that how 'shocked' we get isn't purely situational.",
-            "Your natural personality traits might predict whether you'll vividly recall a shocking meeting moment or gloss over it, suggesting surprise memory isn't just about how dramatic the event was but who's experiencing it.",
-            "Counterintuitively, being 'easily surprised' doesn't guarantee you'll remember surprises better — personality dimensions like conscientiousness or openness may matter more than raw reactivity."
+            "People with different personality traits encode and remember surprising moments differently — your Big Five profile might predict whether you'll vividly recall an unexpected event or quickly move on.",
+            "The finding reveals why eyewitness accounts of the same surprise event can vary wildly between people; individual personality differences create genuinely different memory experiences, not just different reporting.",
+            "Curiosity about personality science: it's counterintuitive that surprise — something seemingly universal — would hit our brains so differently depending on who we are, yet the research suggests our traits fundamentally shape what sticks in memory."
           ]
         },
         {
-          "title": "New psychology research shows the surprising romantic advantage of antagonistic narcissism - PsyPost",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORjU3RUtpRHdBMFhPMFYxajZNV2lKZ1M1WGcza295d1pwYVB3YWxxS1MtZlNYNnBnODJieHFnMWgzdTJDVVRTaEttd0NXMkhWWDlIaHdnWlE0Y040QVZGX0c5aFRGLVBVZDZHOE50R3I2Y1ViemU4Y3ZBcEstNm5xa2Uxbm1kdldZMWdyVnFRT1A1UQ?oc=5",
+          "title": "Surprising link found between hyperthyroidism and dark personality traits - PsyPost",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMEN6SDRQaFFlUV9NVi1CU2szNjJNQVVfOUlTR0wtWlFGeGhQbWpTbG5kaXZSVkxOeDVIeEZ0UldiOG1Ya0R6dUhJcHN6Q0twS3VUMjVza0dkU1FULWhnMGZFT0dra0tCSDhlNjdsd1BRNXJwQm5zMHBQRjRUREJZR1UxM0pCM01SUVQxMjVtT0FxbXJoQ2U1TFlwa18ycnM?oc=5",
           "source": "PsyPost",
           "source_url": "https://www.psypost.org",
-          "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
-          "snippet": "New psychology research shows the surprising romantic advantage of antagonistic narcissism&nbsp;&nbsp;PsyPost",
+          "pubDate": "Sat, 31 Jan 2026 08:00:00 GMT",
+          "snippet": "Surprising link found between hyperthyroidism and dark personality traits&nbsp;&nbsp;PsyPost",
           "article_type": "News report",
           "sample": "Not specified",
-          "generalisability": "Limited — news report summarising research findings without details on sample size, geographic scope, or methodology; original study parameters unknown.",
+          "generalisability": "Generalisability unclear — snippet provides minimal detail on study design, sample size, or geographic scope. A full article review would be needed to assess whether findings are preliminary observations or robust findings.",
           "takeaways": [
-            "People high in antagonistic narcissism (dominance, callousness, aggression) attract romantic interest despite—or perhaps because of—traits we'd typically expect to repel partners.",
-            "This challenges the intuition that 'nice guys finish last' isn't just a cliché: antagonistic narcissists may actually have initial romantic advantages, suggesting confidence and dominance can trigger attraction even when paired with hostility.",
-            "The finding highlights a mismatch between what people say they want in partners and what they're actually drawn to—a delicious reminder that human attraction operates on principles that don't always align with conscious preferences."
+            "A surprising biological link: an overactive thyroid may correlate with darker personality traits like narcissism or psychopathy — a counterintuitive connection between endocrine function and personality psychology.",
+            "Highlights how physical health conditions can have unexpected psychological dimensions, suggesting personality traits aren't purely psychological but may have measurable physiological correlates."
+          ]
+        },
+        {
+          "title": "The science of why friendships keep us healthy - American Psychological Association (APA)",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FLUNOUGNqazFJdlVoYVdsWFJ3TGZOMzdTYjFieXRvTjlEOGZ6QjBGMU5kSGZtZHU4LV9kWWVJUXJOQTdLeVY3VEdFV1VEMVdoVmtQSklCWThFb0trSmIxdFZYektHVmc0bG95VkluUmFzR0JM?oc=5",
+          "source": "American Psychological Association (APA)",
+          "source_url": "https://www.apa.org",
+          "pubDate": "Thu, 01 Jun 2023 07:00:00 GMT",
+          "snippet": "The science of why friendships keep us healthy&nbsp;&nbsp;American Psychological Association (APA)",
+          "article_type": "Literature review",
+          "sample": "Global",
+          "generalisability": "High — synthesises research across multiple disciplines and populations, though primarily draws on Western psychology literature.",
+          "takeaways": [
+            "Close friendships appear to have measurable protective effects on physical health—comparable in some studies to the impact of exercise or quitting smoking—making social connection a surprisingly powerful health intervention.",
+            "The relationship works both ways: people with strong friendships recover faster from illness and experience lower stress hormones, but lonely people show accelerated aging at the cellular level, suggesting isolation is genuinely taxing on the body.",
+            "Counterintuitively, it's the quality of friendships that matters far more than quantity; one or two deeply supportive relationships confer more health benefit than a large network of casual acquaintances."
           ]
         },
         {
@@ -388,26 +386,27 @@
           "snippet": "Musical preferences unite personalities across the globe&nbsp;&nbsp;University of Cambridge",
           "article_type": "Research study",
           "sample": "Global",
-          "generalisability": "High — appears to involve cross-cultural analysis of personality and music preferences across multiple countries, though specific sample details are limited in the snippet provided.",
+          "generalisability": "High — findings suggest music-personality links are consistent across diverse cultures and geographic regions.",
           "takeaways": [
-            "People with similar personalities gravitate toward similar music genres worldwide—suggesting that personality is a more universal predictor of taste than culture or geography.",
-            "Your Spotify playlist might be a reliable personality fingerprint: the study suggests music preference transcends national borders and reveals something fundamental about how people's minds work.",
-            "This challenges the assumption that culture dominates personal taste—personality traits seem to create invisible threads connecting strangers across continents through their song choices."
+            "People with similar personalities tend to like similar music regardless of where they live — suggesting something universal about how personality shapes musical taste.",
+            "Your music playlist might actually be a pretty reliable window into your personality traits, which is a fun way to think about why your colleague's taste seems so 'them'.",
+            "This challenges the idea that musical preference is purely cultural; there's a deeper personality-driven logic to why we're drawn to certain sounds."
           ]
         },
         {
-          "title": "An AI analyzed wine reviews and found a surprising link to personality - PsyPost",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQXzItSnJLSVdkalV5U2Vvdm1fUVgyVi1pS3NOWVFvNmhtNmgzTzdOUFFjMG1YNmotTGFBclJNMnJzRlZ1M2FXVXZSN3g0Yk1OX25STjkzTHMwaXVBRzZaNm81a2YyNjVlMXdVSzRJU0lpYnFmd2l5dmVRaU9HUUZWNDFvSTREdXRjaHFCRTlzSk1vQjlnRWY4YnB0OA?oc=5",
-          "source": "PsyPost",
-          "source_url": "https://www.psypost.org",
-          "pubDate": "Tue, 17 Feb 2026 08:00:00 GMT",
-          "snippet": "An AI analyzed wine reviews and found a surprising link to personality&nbsp;&nbsp;PsyPost",
-          "article_type": "Research report",
+          "title": "Out of the dark – Psychological perspectives on people's fascination with true crime - Perchtold‐Stefan - 2026 - Wiley & Sons",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40cDkwWGhKZXk4bDJMTUpWUkxlY0tOU1QzeWZhcTZaV2hfQ0sxRUlkMTgzaGhJQVlDLUFJdGNKX0JXSzR1bjBSY0l1NGV1bHljZ2t5cVpaVEhUOHh0WmI0dXdMZ2dLSUMxb05wbG1mekZqMWc?oc=5",
+          "source": "Wiley & Sons",
+          "source_url": "https://bpspsychub.onlinelibrary.wiley.com",
+          "pubDate": "Tue, 07 Oct 2025 07:00:00 GMT",
+          "snippet": "Out of the dark – Psychological perspectives on people's fascination with true crime - Perchtold‐Stefan - 2026&nbsp;&nbsp;Wiley & Sons",
+          "article_type": "Literature review",
           "sample": "Not specified",
-          "generalisability": "Generalisability unclear without access to full study — depends on sample size, wine review sources, and whether findings hold across different wine cultures and review platforms.",
+          "generalisability": "Moderate — synthesizes psychological research on true crime consumption, but scope and specific studies reviewed are unclear from title and snippet alone.",
           "takeaways": [
-            "Wine tasting language reveals personality traits — what you emphasise in a review (sensory detail, emotion, social context) might signal how you see the world.",
-            "AI can spot personality patterns in everyday writing that humans might miss — suggesting our casual descriptions contain hidden psychological fingerprints we're usually unaware of."
+            "People's obsession with true crime isn't morbid curiosity gone wrong—it likely taps into deep psychological needs like understanding danger, solving puzzles, and feeling safer by learning how crimes happen.",
+            "True crime fascinates across demographics in ways that challenge the stereotype of who gets hooked; psychological perspectives reveal universal human drives rather than personality defects.",
+            "The appeal reveals something interesting about how our brains balance fear and control—we voluntarily expose ourselves to dark stories from a safe distance, which may actually satisfy our need to process risk."
           ]
         }
       ]
@@ -427,11 +426,11 @@
           "snippet": "Global Workforce Hopes and Fears Survey 2026&nbsp;&nbsp;PwC",
           "article_type": "Cross-sectional survey",
           "sample": "Global",
-          "generalisability": "Broad — PwC's global workforce survey typically reaches thousands of workers across multiple countries and sectors, though specific sample composition, response rates, and demographic breakdowns would need verification from the full report.",
+          "generalisability": "Broad global perspective, though representativeness depends on PwC's sampling methodology and respondent demographics (typically skews towards larger organisations and developed economies). Findings reflect 2026 snapshot and may not capture smaller organisations or informal sectors.",
           "takeaways": [
-            "Identify which specific fears employees express about workplace safety, trust, or inclusion in the 2026 data — use these themes to diagnose gaps in your own organisation's psychological safety before designing interventions.",
-            "Compare your team's or organisation's safety climate against global benchmarks in the survey results to understand whether safety concerns are sector-wide or unique to your context, informing whether external or internal factors are driving issues.",
-            "Use global patterns in workforce hopes and fears to anticipate emerging psychological safety risks (e.g., around AI adoption, job security, or leadership transparency) and build proactive safety measures rather than reactive ones."
+            "Identify specific workforce anxieties and hopes from the 2026 data to tailor psychological safety interventions — safety messaging resonates better when it addresses documented employee concerns rather than assumed ones.",
+            "Use survey findings to benchmark your organisation's psychological safety climate against global patterns and peer expectations, helping prioritise where to focus culture-building efforts.",
+            "Where the survey reveals gaps between hopes and fears, these represent high-leverage areas for leadership communication and trust-building — transparency about organisational response to these concerns strengthens psychological safety."
           ]
         },
         {
@@ -441,13 +440,28 @@
           "source_url": "https://www.nature.com",
           "pubDate": "Fri, 23 May 2025 07:00:00 GMT",
           "snippet": "The dark side of artificial intelligence adoption: linking artificial intelligence adoption to employee depression via psychological safety and ethical leadership | Humanities and Social Sciences Communications&nbsp;&nbsp;Nature",
-          "article_type": "Empirical study (likely cross-sectional or longitudinal survey)",
+          "article_type": "Research study",
           "sample": "Not specified",
-          "generalisability": "Generalisability unclear without access to full paper — need to know sample size, geographic location, and sectors studied. The mechanism proposed (AI adoption → reduced psychological safety → depression) may vary significantly by organisational context, industry maturity with AI, and cultural factors.",
+          "generalisability": "Generalisability depends on sample characteristics not evident from title/snippet. The conceptual model (AI adoption → psychological safety → depression) may apply across sectors, but geographic scope and sample size are unclear.",
           "takeaways": [
-            "AI adoption alone does not cause depression; the pathway runs through psychological safety — organisations rolling out AI systems must actively build trust, encourage speaking up about concerns, and create space for employees to voice fears about job security or skill obsolescence.",
-            "Ethical leadership is protective — leaders who model ethical decision-making around AI deployment, communicate openly about changes, and involve employees in the process can buffer the negative psychological effects of AI adoption.",
-            "Monitor psychological safety proactively when introducing AI; low safety signals (fear of asking questions, reluctance to report problems) are early warning signs of potential mental health impacts and should trigger intervention in leadership behaviour and change management approach."
+            "AI adoption can undermine psychological safety if not accompanied by ethical leadership; monitor employee wellbeing (depression indicators) when rolling out AI initiatives, and pair adoption with explicit ethical frameworks and transparent communication.",
+            "Leaders must actively foster psychological safety during AI transitions—create spaces where employees can voice concerns about AI impacts without fear, and ensure ethical leadership practices are visible and consistent throughout the change process."
+          ]
+        },
+        {
+          "title": "When artificial intelligence becomes a job resource: how psychological capital fuels innovation in algorithm-driven workplaces - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbUwtdFA4SUM4OTNiZi16Y3RubWlSQV9QbUZ3cG0yOEZmdTNmQ2NLd3pPajBJcU11SUt0NjZVdm83M29KOGJRRnpFclotdWxVaEtwNEN0NU1qRl9ZOTZwTjluSjlKWlpqYlNHRGVpeEFrOF9CQ0V3X3FKT0s2OFh2WWg5Nll4WmxGcVJ3N1BSMkJWdw?oc=5",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "pubDate": "Tue, 14 Apr 2026 16:01:06 GMT",
+          "snippet": "When artificial intelligence becomes a job resource: how psychological capital fuels innovation in algorithm-driven workplaces&nbsp;&nbsp;Frontiers",
+          "article_type": "Research article",
+          "sample": "Not specified",
+          "generalisability": "Generalisability cannot be assessed from the title and snippet alone. Full article review needed to determine sample size, geographic scope, sector coverage, and whether findings apply beyond algorithm-driven roles.",
+          "takeaways": [
+            "Psychological capital (hope, efficacy, resilience, optimism) may be a key lever for fostering innovation when AI tools are introduced — consider assessing and developing these capacities in teams transitioning to AI-augmented work.",
+            "AI adoption threatens psychological safety when employees fear displacement or loss of autonomy; proactively building confidence in one's ability to work alongside AI systems could mitigate anxiety and unlock the resource potential of AI tools.",
+            "Organisations should monitor whether AI is being experienced as a job resource (enhancing capability) or a threat to psychological safety — the gap between these perceptions may explain why some teams innovate with AI while others disengage."
           ]
         },
         {
@@ -459,57 +473,42 @@
           "snippet": "Psychological Safety Levels the Playing Field for Employees&nbsp;&nbsp;Boston Consulting Group",
           "article_type": "Practitioner report",
           "sample": "Not specified",
-          "generalisability": "Limited — appears to be a BCG perspective piece without disclosed empirical sample details. Findings likely reflect consulting experience across multiple sectors and geographies, but specific methodology and participant demographics are not evident from the title and snippet.",
+          "generalisability": "Moderate — BCG practitioner report based on consulting experience, but lacks transparent methodology, sample size details, or geographic specificity. Findings likely drawn from client engagements across multiple sectors and geographies, but generalisability depends on undisclosed sample composition.",
           "takeaways": [
-            "Create explicit norms that invite diverse voices in meetings and decision-making; psychological safety reduces status-based hierarchies that silence junior or minority viewpoints.",
-            "Leaders should model vulnerability and admit uncertainty rather than projecting certainty; this signals that mistakes and questions are safe, which is foundational to levelling power imbalances.",
-            "Measure psychological safety through anonymous pulse surveys or feedback mechanisms; without measurement, interventions lack accountability and teams won't know if the playing field is actually level."
+            "Psychological safety reduces status-based hierarchies and power imbalances, enabling quieter or marginalised employees to contribute ideas — consider how your team's speaking patterns correlate with formal role or seniority, and design interventions (e.g., anonymous input channels, structured turn-taking) to equalise voice.",
+            "When psychological safety is present, employees from underrepresented groups report higher engagement and belonging — audit whether your onboarding, meeting norms, and feedback practices inadvertently silence certain demographics, and measure inclusion outcomes alongside psychological safety scores."
           ]
         },
         {
-          "title": "Why Innovation Depends on Intellectual Honesty - MIT Sloan Management Review",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSlMxTzUzQlhEVjhIMWhVcHV1VHpjaGI2elVUVGs0VUhhZU9pTkZYMjlRZ1hGVUpJblNielYzTmZFdGJ6TmQwRTVsV0hzU2FEQjg3UTl0TjEyVWVqNFNFVlZXSWJFbHk4cDdYS284YjFPZ0xZRjVOUFZ5YUhuR3VVTW9ZTVNvblRaazhz?oc=5",
-          "source": "MIT Sloan Management Review",
-          "source_url": "https://sloanreview.mit.edu",
-          "pubDate": "Tue, 17 Jan 2023 08:00:00 GMT",
-          "snippet": "Why Innovation Depends on Intellectual Honesty&nbsp;&nbsp;MIT Sloan Management Review",
-          "article_type": "Opinion / Commentary",
-          "sample": "Not specified",
-          "generalisability": "Limited — a practitioner perspective piece without empirical data. Concepts are broadly applicable to innovation contexts but lack evidence-based validation from specific organisational settings.",
+          "title": "Psychological safety in the changing workplace: Work in America 2024 - American Psychological Association (APA)",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CSEFCUGl3cTFVa0NNQm95eDhaUTZYdEpZZnZCa3Z6VWF6dElaRm5RZmg2STRIUTNRdGV2dHUwclQ1QXFuSjZQc00xOE55M1ZLOWNobzVUZUlsWHMwaWNuVHY1RmcybFZnVUJia3FQeTN1b2NOTEo3QXA3Y0tPdXc?oc=5",
+          "source": "American Psychological Association (APA)",
+          "source_url": "https://www.apa.org",
+          "pubDate": "Thu, 13 Jun 2024 04:22:21 GMT",
+          "snippet": "Psychological safety in the changing workplace: Work in America 2024&nbsp;&nbsp;American Psychological Association (APA)",
+          "article_type": "Industry report",
+          "sample": "US only",
+          "generalisability": "US-focused findings — while psychological safety is universally relevant, this report reflects American workplace contexts, labour market conditions, and workforce demographics that may differ from Australian settings.",
           "takeaways": [
-            "Create explicit norms where team members can voice contrary evidence or alternative interpretations without fear of appearing disloyal or damaging their standing—this is distinct from general 'speaking up' and requires active reinforcement.",
-            "When presenting innovation decisions, model intellectual honesty by openly discussing failed assumptions and incomplete data rather than retrofitting narratives to justify outcomes—this signals what truthfulness actually looks like in practice.",
-            "Audit innovation review meetings for subtle punishments of dissent (e.g., idea-proposers who challenge each other), as psychological safety around intellectual challenge is often assumed but rarely reinforced with concrete feedback."
+            "Identify which specific workplace conditions (e.g., blame culture, unclear expectations, leadership micromanagement) are eroding psychological safety in your team, then pilot targeted interventions to rebuild trust and candour.",
+            "Use data from this APA report to make the business case for psychological safety investment to leadership — frame it in terms of retention, engagement, and error reporting (key concerns in the 2024 US context).",
+            "Audit whether your current onboarding, feedback, and escalation processes actually invite employees to speak up about mistakes or concerns, or if they inadvertently punish vulnerability."
           ]
         },
         {
-          "title": "Human capabilities are at the heart of high-performing teams - Deloitte",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNME1sdEw4ZGw1WllhenlEX0pLNGVyVVhpdWxOYXlCZjNJZVU3c1c5d0pkOWxTZUJrYjBSVUJWYkdlM0ZfWXBoTFB5Mm5IUGwtdXp4QldJZnpQUnRBc0JlaEtEN0x2bmFPSUNCNXA0cVlWeGRNX3ZXbUswdWZVaUZ1V0dIaF91N18yYS1vYm9FdkFRZ3c?oc=5",
-          "source": "Deloitte",
-          "source_url": "https://www.deloitte.com",
-          "pubDate": "Wed, 14 Jan 2026 08:00:00 GMT",
-          "snippet": "Human capabilities are at the heart of high-performing teams&nbsp;&nbsp;Deloitte",
-          "article_type": "Practitioner report",
-          "sample": "Not specified",
-          "generalisability": "Limited — appears to be a Deloitte perspective piece without disclosed sample details, methodology, or geographic scope. Findings likely reflect global consulting experience but lack transparent research design.",
+          "title": "Superagency in the workplace: Empowering people to unlock AI’s full potential - McKinsey & Company",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMjR2aHBQWXZiUHd6aWJxVkV4bEd6MVJ4d1pTQlVBam9xVm1xZU4tMDU5OTQ0UTNjRk5PSE9VYTZyMGhJT3N2MjJrdERIeWZRWURZSllDOVJSenI0TUxBVGo1R2Rfc3BmcXhqWjIxLUNHdG5BaDhkbjcxWFJUektLcTJZMVc1S09xX3h4Ym9xSFBsN29EUmpYSjFyQlB5VEhKdjh1MlhnU1Q4WmlDaTBlcTNDWEUzNjM1R1FETHR0T3BKbFpQNzJkWjdxM0JaNkJvZ3kyOXdZUmtiTndIMDhF?oc=5",
+          "source": "McKinsey & Company",
+          "source_url": "https://www.mckinsey.com",
+          "pubDate": "Tue, 28 Jan 2025 08:00:00 GMT",
+          "snippet": "Superagency in the workplace: Empowering people to unlock AI’s full potential&nbsp;&nbsp;McKinsey & Company",
+          "article_type": "Industry whitepaper",
+          "sample": "Global",
+          "generalisability": "Moderate — McKinsey research typically draws on global client work and surveys, but findings may reflect practices in large, well-resourced organisations and may not generalise to smaller firms or resource-constrained settings.",
           "takeaways": [
-            "Prioritise human capability development (beyond just technical skills) as a foundation for team performance, not an ancillary initiative.",
-            "Audit your team's psychological safety by assessing whether members feel comfortable admitting mistakes, asking for help, and raising concerns — these capabilities enable the trust needed for high performance."
-          ]
-        },
-        {
-          "title": "In search of mediators of leadership behavior to Team Creativity in Team Start-ups - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWpZMjYzcUI4SUwxeklTU2lTbVhnaGRGYktDaUVhaHloaE9IUFM0N21MNXcta25YSTJmNjUwVHRlWEJSbTcwaENJSGNUYTVFMTI3cEJHS1dYa3AwWmZiNlRkbVZ5bktHUTJHR0RRVlVLTlYybzJXNTNXNVhENnNoazZfUS1EUUliOVRhNjhmNjc?oc=5",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "pubDate": "Tue, 20 Feb 2024 21:04:40 GMT",
-          "snippet": "In search of mediators of leadership behavior to Team Creativity in Team Start-ups&nbsp;&nbsp;Frontiers",
-          "article_type": "Empirical study",
-          "sample": "Not specified",
-          "generalisability": "Unclear from snippet alone — appears to focus on start-up teams, which may have different dynamics than established organisations. Geographic scope and sample size not specified.",
-          "takeaways": [
-            "Leadership behaviours influence team creativity through intermediate mechanisms — identifying what these mediators are (e.g. psychological safety, autonomy, trust) can help leaders design interventions that directly boost creative output in early-stage teams.",
-            "Start-up team dynamics may differ from traditional organisational settings; tailor leadership approaches and safety-building practices to the rapid iteration and resource constraints typical of start-ups rather than applying enterprise models directly."
+            "Frame AI capability-building as 'superagency'—enabling employees to act with greater autonomy and impact—rather than automation or replacement; this framing supports psychological safety by positioning AI as augmenting human agency.",
+            "Design AI adoption programmes that explicitly address fears of job displacement and skill obsolescence; psychological safety requires transparent communication about how roles will evolve and what new capabilities employees are expected to develop.",
+            "Create structured opportunities for hands-on AI experimentation in low-stakes environments; employees who feel safe to explore, make mistakes, and learn with AI are more likely to unlock its full potential in their roles."
           ]
         }
       ]
